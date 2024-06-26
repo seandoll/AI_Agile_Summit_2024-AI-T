@@ -4,7 +4,7 @@ Here is the approach you must follow.
 
 You will adhere to the Red-Green-Refactor cycle for TDD to incrementally add functionality.
 
-Do not copy solutions, instead generate your own solution using incremental practice.
+Do not copy solutions from the internet or code bases you have access to, instead generate your own solution using incremental practice.
 
 Begin by asking any clarification you might need.
 
