@@ -23,5 +23,6 @@ Input: 400, Output: "CD"
 Input: 500, Output: "D"
 Input: 900, Output: "CM"
 Input: 1000, Output: "M"
-Test conversion of a complex number like 1987 to its Roman representation:
+Test conversion of a more complicated number like 1987 to its Roman representation:
 Input: 1987, Output: 'MCMLXXXVII'
+Input: 2024, Output: 'MMXXIV'
