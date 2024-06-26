@@ -1,2 +1,3 @@
 def convert_decimal_to_roman(num):
-    return "I"
+    if num == 0:
+        return 'Roman numerals have no zero'
