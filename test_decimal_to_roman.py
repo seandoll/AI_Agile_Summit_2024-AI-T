@@ -18,10 +18,10 @@ class TestRomanNumerals(unittest.TestCase):
         result = convert_decimal_to_roman(1)
         self.assertEqual(result, 'I', f"Expected 'I', but got {result}")
 
-    # def test_convert_decimal_to_roman_two(self):
-    #     result = convert_decimal_to_roman(2)
-    #     self.assertEqual(result, 'II', f"Expected 'II', but got {result}")
-    #
+    def test_convert_decimal_to_roman_two(self):
+        result = convert_decimal_to_roman(2)
+        self.assertEqual(result, 'II', f"Expected 'II', but got {result}")
+
 
 if __name__ == '__main__':
     unittest.main()
