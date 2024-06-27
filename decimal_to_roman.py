@@ -3,9 +3,6 @@ def convert_decimal_to_roman(num):
         return 'Roman numerals have no zero'
     elif num < 0:
         return 'Roman numerals do not include negative numbers'
-    elif num == 1:
-        return 'I'
-    elif num == 2:
-        return 'II'
-    elif num == 3:
-        return 'III'
+
+    roman_numerals = {1: 'I', 2: 'II', 3: 'III'}
+    return roman_numerals.get(num)
