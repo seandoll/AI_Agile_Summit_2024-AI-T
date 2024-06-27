@@ -26,6 +26,10 @@ class TestRomanNumerals(unittest.TestCase):
         result = convert_decimal_to_roman(3)
         self.assertEqual(result, 'III', f"Expected 'III', but got {result}")
 
+    def test_convert_decimal_to_roman_four(self):
+        result = convert_decimal_to_roman(4)
+        self.assertEqual(result, 'IV', f"Expected 'IV', but got {result}")
+
 
 if __name__ == '__main__':
     unittest.main()
