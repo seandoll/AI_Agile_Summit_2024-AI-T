@@ -30,6 +30,18 @@ class TestRomanNumerals(unittest.TestCase):
         result = convert_decimal_to_roman(4)
         self.assertEqual(result, 'IV', f"Expected 'IV', but got {result}")
 
+    def test_convert_decimal_to_roman_five(self):
+        result = convert_decimal_to_roman(5)
+        self.assertEqual(result, 'V', f"Expected 'V', but got {result}")
+
+    def test_convert_decimal_to_roman_six(self):
+        result = convert_decimal_to_roman(6)
+        self.assertEqual(result, 'VI', f"Expected 'VI', but got {result}")
+
+    def test_convert_decimal_to_roman_seven(self):
+        result = convert_decimal_to_roman(7)
+        self.assertEqual(result, 'VII', f"Expected 'VII', but got {result}")
+
 
 if __name__ == '__main__':
     unittest.main()
